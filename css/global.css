@@ -8,6 +8,14 @@ h4, h5, p {
     font-family: 'Open Sans', sans-serif;
 }
 
+p {
+    line-height: 10px;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .inline {
     display: inline-flex;
     width: 100%;
@@ -25,10 +33,31 @@ nav {
     display: none;
 }
 
+.default-btn {
+    border: 1px solid #686157;
+    background-color: #686157;
+    color: #fff;
+    padding: .4em;
+    width: 50%;
+}
+
+::-webkit-scrollbar {
+    height: 1em;
+    width: 1em;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(238, 238, 238);
+    background: linear-gradient(313deg, rgba(238, 238, 238, 1) 0%, rgba(104, 97, 87, 1) 100%);
+    width: 10px;
+}
+
 @media screen and (max-width: 570px) {
     .mobile {
         display: block;
     }
+
     .desktop {
         display: none;
     }
