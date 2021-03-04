@@ -66,6 +66,17 @@ nav {
     height: .5em;
     width: 20%;
 }
+a {
+    text-decoration: none !important;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.divider {
+    background-color: #686158;
+    height: 1px;
+}
 @media screen and (max-width: 570px) {
     .mobile {
         display: block;

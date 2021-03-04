@@ -8,7 +8,6 @@
 .header p {
     color: #666
 }
-
 .menu-row {
     text-align: right !important;
 }
@@ -104,7 +103,7 @@
 }
 
 .testimonial-div {
-    background: linear-gradient(184deg, rgba(0, 0, 0, 0.41780462184873945) 0%, rgba(0, 0, 0, 1) 100%), url("../img/hunters-race-MYbhN8KaaEc-unsplash.jpg");
+    background: linear-gradient(180deg, rgba(40,40,40,0.8239670868347339) 0%, rgba(40,40,40,1) 100%), url("../img/hunters-race-MYbhN8KaaEc-unsplash.jpg");
     height: 70vh;
 }
 
@@ -146,3 +145,31 @@
 .swiper-button-prev, .swiper-button-next {
     color: #fff !important;
 }
+.partners {
+    padding: 5em;
+}
+
+footer {
+    background: linear-gradient(283deg, rgba(48,48,48,0.9528186274509804) 0%, rgba(48,48,48,1) 100%),url("../img/bill-oxford-OXGhu60NwxU-unsplash.jpg");
+    min-height: 50vh;
+    padding: 6em 10em;
+}
+
+.white-h5 {
+    color: #fff;
+    padding: .25em 0;
+}
+footer h1 {
+    color: #fff;
+}
+footer h6 {
+    margin-top: 1em;
+    color: #686158;
+    line-height: 5px;
+}
+footer p {
+    line-height: normal;
+    color: #686158;
+    font-size: 20px;
+}
+
