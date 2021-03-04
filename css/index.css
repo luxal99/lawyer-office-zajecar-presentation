@@ -1,6 +1,6 @@
 .header {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.7091211484593838) 51%, rgba(255, 255, 255, 1) 100%), url('../img/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg');
-	height: 100vh;
+    height: 100vh;
     background-size: cover;
     background-position-y: 5%;
 }
@@ -8,13 +8,39 @@
 .header p {
     color: #666
 }
+
 .menu-row {
     text-align: right !important;
 }
+
 .header .left-col {
     padding-top: 15em;
 }
+
 .header .left-col h1 {
     font-size: 60px;
 }
 
+.brown-light-col {
+    background-color: #686158;
+    padding: 5em 3em;
+    color: #fff;
+}
+
+.brown-light-col p {
+    color: #f3f4f7;
+    line-height: normal;
+    font-size: 18px;
+}
+
+.brown-dark-col {
+    padding: 5em 3em;
+    border-right: 1px solid #4f4e4e;
+    background-color: #3C3C3C;
+    color: #fff;
+}
+.brown-dark-col p {
+    color: #999;
+    line-height: normal;
+    font-size: 18px;
+}

@@ -33,11 +33,16 @@ nav {
     display: none;
 }
 
+.custom-container {
+    padding: 0 10em;
+}
+
 .default-btn {
     border: 1px solid #686157;
     background-color: #686157;
     color: #fff;
-    padding: .4em;
+    padding: .5em;
+    font-size: 18px;
     width: 50%;
 }
 
