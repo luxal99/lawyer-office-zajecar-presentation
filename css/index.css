@@ -39,15 +39,30 @@
     background-color: #3C3C3C;
     color: #fff;
 }
+
 .brown-dark-col p {
     color: #999;
     line-height: normal;
     font-size: 18px;
 }
+
 .about-container {
     padding: 10em;
 }
+
 .about-container p {
     line-height: normal;
     font-size: 20px;
+}
+
+.counter-div {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(184deg, rgba(0, 0, 0, 0.07886904761904767) 0%, rgba(0, 0, 0, 1) 100%), url("../img/scott-graham-OQMZwNd3ThU-unsplash (1).jpg");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 5em;
+}
+.counter-div h1 {
+    color: #fff;
 }
