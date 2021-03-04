@@ -44,3 +44,10 @@
     line-height: normal;
     font-size: 18px;
 }
+.about-container {
+    padding: 10em;
+}
+.about-container p {
+    line-height: normal;
+    font-size: 20px;
+}
