@@ -57,7 +57,7 @@
 
 .counter-div {
     background: rgb(0, 0, 0);
-    background: linear-gradient(184deg, rgba(0,0,0,0.41780462184873945) 0%, rgba(0,0,0,1) 100%), url("../img/scott-graham-OQMZwNd3ThU-unsplash (1).jpg");
+    background: linear-gradient(184deg, rgba(0, 0, 0, 0.41780462184873945) 0%, rgba(0, 0, 0, 1) 100%), url("../img/scott-graham-OQMZwNd3ThU-unsplash (1).jpg");
     height: 50vh;
     background-position: center;
     background-size: cover;
@@ -90,6 +90,7 @@
     font-weight: normal;
     font-size: 18px !important;
 }
+
 .border-col {
     padding: 5em;
     text-align: center !important;
@@ -97,6 +98,51 @@
     background-color: #ffffff;
     margin: 1em;
 }
+
 .border-col p {
     line-height: normal;
+}
+
+.testimonial-div {
+    background: linear-gradient(184deg, rgba(0, 0, 0, 0.41780462184873945) 0%, rgba(0, 0, 0, 1) 100%), url("../img/hunters-race-MYbhN8KaaEc-unsplash.jpg");
+    height: 70vh;
+}
+
+.testimonial-div h1 {
+    color: #fff;
+    padding-top: 1em;
+}
+
+.testimonial-card {
+    text-align: center !important;
+    margin-top: 5em;
+}
+
+.testimonial-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.testimonial-card p {
+    color: #e3d4c0;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.testimonial-card h2, h4 {
+    color: #fff;
+}
+
+.testimonial-card h2 {
+    font-weight: bolder;
+}
+
+.testimonial-card h4 {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #fff !important;
 }

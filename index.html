@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
 <nav class="navbar-light bg-light">
@@ -132,7 +134,8 @@
 <div class="counter-div text-center">
     <h1>Lorem ipsum dolor nunc</h1>
     <p> Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-        versions of Lorem Ipsum. Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+        versions of Lorem Ipsum. Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+        PageMaker including
         versions of Lorem Ipsum.</p>
     <div class="row">
         <div class="col-sm counter-col">
@@ -185,9 +188,77 @@
         </div>
     </div>
 </div>
+<div class="testimonial-div">
+    <div class="container text-center">
+        <h1>Testimonials</h1>
+        <div class="swiper-container" style="padding:5em">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide testimonial-card">
+                    <img src="img/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash.jpg" class="img-fluid">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy.It is a long established fact that a reader will be </p>
+                    <h2>John Doe</h2>
+                    <h4>Profesor</h4>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <img src="img/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash.jpg" class="img-fluid">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy.It is a long established fact that a reader will be </p>
+                    <h2>John Doe</h2>
+                    <h4>Profesor</h4>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <img src="img/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash.jpg" class="img-fluid">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy.It is a long established fact that a reader will be </p>
+                    <h2>John Doe</h2>
+                    <h4>Profesor</h4>
+                </div>
+            </div>
+            <div class="swiper-pagination" ></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script type="module">
+    import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+
+    const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        slidesPerView: 1,
+        spaceBetween: 30,
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+
+</script>
 </body>
 </html>
