@@ -57,13 +57,46 @@
 
 .counter-div {
     background: rgb(0, 0, 0);
-    background: linear-gradient(184deg, rgba(0, 0, 0, 0.07886904761904767) 0%, rgba(0, 0, 0, 1) 100%), url("../img/scott-graham-OQMZwNd3ThU-unsplash (1).jpg");
+    background: linear-gradient(184deg, rgba(0,0,0,0.41780462184873945) 0%, rgba(0,0,0,1) 100%), url("../img/scott-graham-OQMZwNd3ThU-unsplash (1).jpg");
     height: 50vh;
     background-position: center;
     background-size: cover;
-    padding: 5em;
+    padding: 5em 10em;
 }
 
 .counter-div h1, h4 {
     color: #fff;
+}
+
+.counter-div h1 {
+    font-family: 'Asap', sans-serif;
+    font-weight: bold !important;
+    font-style: italic;
+}
+
+.counter-col {
+    border-right: 1px solid #fff;
+    padding: 3em 0;
+    margin-top: 5em;
+}
+
+.counter-col .row {
+    margin-top: 5em;
+}
+
+.counter-div p {
+    color: #e9ddc6 !important;
+    line-height: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+}
+.border-col {
+    padding: 5em;
+    text-align: center !important;
+    border: 1px solid #d6c8be;
+    background-color: #ffffff;
+    margin: 1em;
+}
+.border-col p {
+    line-height: normal;
 }

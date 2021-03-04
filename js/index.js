@@ -38,7 +38,7 @@ function initCounter(increment, counter, counterDiv) {
         if (increment === counter) {
             setTimeout(() => {
                 increment = 0;
-            }, 10000)
+            }, 1000)
         }
         counterDiv.innerText = increment;
     }, 1)
