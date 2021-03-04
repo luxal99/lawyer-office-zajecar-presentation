@@ -63,6 +63,7 @@
     background-size: cover;
     padding: 5em;
 }
-.counter-div h1 {
+
+.counter-div h1, h4 {
     color: #fff;
 }
