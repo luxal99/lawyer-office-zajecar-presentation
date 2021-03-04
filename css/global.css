@@ -1,0 +1,35 @@
+h1 {
+    font-weight: bold !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4, h5, p {
+    font-weight: lighter !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inline {
+    display: inline-flex;
+    width: 100%;
+}
+
+.nav-link-h4 {
+    margin: 1em .5em;
+}
+
+nav {
+    padding: .5em;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 570px) {
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+}

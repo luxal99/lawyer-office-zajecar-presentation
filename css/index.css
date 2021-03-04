@@ -1,0 +1,13 @@
+.header {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7091211484593838) 51%, rgba(255, 255, 255, 1) 100%), url('../img/scott-graham-OQMZwNd3ThU-unsplash\ \(1\).jpg');
+	height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header p {
+    color: #666
+}
+.menu-row {
+    text-align: right !important;
+}
