@@ -219,11 +219,9 @@
                 </div>
             </div>
 
-            <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
 
-            <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
         </div>
     </div>
@@ -233,8 +231,10 @@
     <h1>Kontaktirajte nas</h1>
     <p>It is a long established fact that<br> a reader will be distracted by the readable</p>
     <h5 class="white-h5"><i class="fa fa-location-arrow" aria-hidden="true"></i> Some Address 21, City</h5>
-    <a href="mailto:example@gmail.com"><h5 class="white-h5"><i class="fa fa-envelope" aria-hidden="true"></i> example@mail.com</h5></a>
-    <a href="tel:+381 6431342"><h5 class="white-h5"><i class="fa fa-phone-square" aria-hidden="true"></i> +381 69 3215454</h5></a>
+    <a href="mailto:example@gmail.com"><h5 class="white-h5"><i class="fa fa-envelope" aria-hidden="true"></i>
+        example@mail.com</h5></a>
+    <a href="tel:+381 6431342"><h5 class="white-h5"><i class="fa fa-phone-square" aria-hidden="true"></i> +381 69
+        3215454</h5></a>
     <h5 class="white-h5"><i class="fa fa-location-arrow" aria-hidden="true"></i> Some Address 21, City</h5>
     <div class="divider" style="margin-top: 5em"></div>
     <h6>Sva prava zadržana | All rights reserved</h6>
@@ -250,29 +250,21 @@
     import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
 
     const swiper = new Swiper('.swiper-container', {
-        // Optional parameters
         slidesPerView: 1,
         spaceBetween: 30,
         direction: 'horizontal',
         loop: true,
-
-        // If we need pagination
         pagination: {
             el: '.swiper-pagination',
         },
-
-        // Navigation arrows
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-
-        // And if we need scrollbar
         scrollbar: {
             el: '.swiper-scrollbar',
         },
     });
-
 </script>
 </body>
 </html>

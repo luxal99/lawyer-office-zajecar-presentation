@@ -15,22 +15,22 @@ casesWonCount();
 clientsCount();
 
 function activeCaseCount() {
-    initCounter(0, activeCasesCounter, activeCasesDiv)
+    initCounter(0, activeCasesCounter, activeCasesDiv,100)
 }
 
 function totalCasesCount() {
-    initCounter(0, totalCasesCounter, totalCasesDiv)
+    initCounter(0, totalCasesCounter, totalCasesDiv,1)
 }
 
 function casesWonCount() {
-    initCounter(0, casesWonCounter, casesWonDiv)
+    initCounter(0, casesWonCounter, casesWonDiv,1)
 }
 
 function clientsCount() {
-    initCounter(0, clientsCounter, clientsDiv)
+    initCounter(0, clientsCounter, clientsDiv,100)
 }
 
-function initCounter(increment, counter, counterDiv) {
+function initCounter(increment, counter, counterDiv,interval) {
     setInterval(() => {
         if (increment < counter) {
             increment++
@@ -41,5 +41,5 @@ function initCounter(increment, counter, counterDiv) {
             }, 1000)
         }
         counterDiv.innerText = increment;
-    }, 1)
+    }, interval)
 }
